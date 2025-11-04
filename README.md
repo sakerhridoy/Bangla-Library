@@ -12,8 +12,8 @@ A responsive and modern book catalog / e-commerce website built with **HTML** an
 
 ## Demo
 
-You can view the live demo here:  
-[Live Preview Link](#) <!-- Replace with your live deployment link -->
+## You can view the live demo here:  
+### https://sakerhridoy.github.io/Bangla-Library/
 
 ## Features
 
