@@ -35,15 +35,6 @@ A responsive and modern book catalog / e-commerce website built with **HTML** an
 - CSS3 (Flexbox, Grid, CSS Variables, Transitions, Animations)
 - Google Fonts: [Kalpurush](https://fonts.google.com/specimen/Kalpurush) and [Inter](https://fonts.google.com/specimen/Inter)
 
-## Folder Structure
-
-├── index.html
-├── style.css
-├── images/
-│ ├── book1.jpg
-│ ├── book2.jpg
-│ └── ...
-└── README.md
 
 ## How to Run Locally
 
