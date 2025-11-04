@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>বাংলা বইঘর - Bangla Book Library</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kalpurush:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <a href="#home" class="logo">
+        <div class="logo-icon">📚</div>
+        <div class="logo-text">
+          <h1 class="bangla-text gradient-text">বাংলা বইঘর</h1>
+          <p class="english-text">Bangla Book Library</p>
+        </div>
+      </a>
+
+      <div class="search-bar">
+        <span>🔍</span>
+        <input type="text" placeholder="বই খুঁজুন... (Search books...)">
+      </div>
+
+      <nav class="nav">
+        <a href="#home" class="bangla-text">হোম</a>
+        <a href="#catalog" class="bangla-text">বই সমূহ</a>
+        <a href="#about-section" class="bangla-text">আমাদের সম্পর্কে</a>
+        <a href="#cart" class="cart-icon">
+          🛒
+          <span class="cart-count">3</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Page -->
+  <div id="home" class="page">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="bangla-text">
+              স্বাগতম<br>
+              <span class="gradient-text">বাংলা বইঘরে</span>
+            </h1>
+            <p class="bangla-text">
+              আমাদের সমৃদ্ধ সংগ্রহে রয়েছে হাজারো বাংলা বই। ক্লাসিক থেকে আধুনিক,
+              সব ধরনের বই এক জায়গায়।
+            </p>
+            <p class="english-text" style="color: var(--neutral-500); font-size: 1rem;">
+              Discover thousands of Bengali books in our comprehensive collection.
+              From classics to contemporary works, all in one place.
+            </p>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-icon">📚</div>
+                <span class="bangla-text font-semibold">৫০০০+ বই</span>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">👥</div>
+                <span class="bangla-text font-semibold">১০,০০০+ পাঠক</span>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">⭐</div>
+                <span class="bangla-text font-semibold">৪.৮ রেটিং</span>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#catalog" class="btn btn-primary bangla-text">
+                বই সমূহ দেখুন
+                <span>→</span>
+              </a>
+              <a href="#about-section" class="btn btn-secondary bangla-text">
+                আরো জানুন
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="book-grid-preview">
+              <div class="preview-book" style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);">
+                <h4 class="bangla-text">পথের পাঁচালী</h4>
+                <p class="bangla-text">বিভূতিভূষণ</p>
+              </div>
+              <div class="preview-book" style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);">
+                <h4 class="bangla-text">শেষের কবিতা</h4>
+                <p class="bangla-text">রবীন্দ্রনাথ</p>
+              </div>
+              <div class="preview-book" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%);">
+                <h4 class="bangla-text">লালসালু</h4>
+                <p class="bangla-text">সৈয়দ ওয়ালীউল্লাহ</p>
+              </div>
+              <div class="preview-book" style="background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);">
+                <h4 class="bangla-text">আরণ্যক</h4>
+                <p class="bangla-text">বিভূতিভূষণ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="bangla-text">বই এর ধরন</h2>
+          <p class="bangla-text">আমাদের বিস্তৃত সংগ্রহ থেকে আপনার পছন্দের ধরনের বই খুঁজে নিন</p>
+          <p class="english-text" style="color: var(--neutral-500); font-size: 0.9rem;">
+            Explore our extensive collection across various genres
+          </p>
+        </div>
+
+        <div class="category-grid">
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);">📖</div>
+            <h3 class="bangla-text">উপন্যাস</h3>
+            <p class="english-text">Novels</p>
+            <div class="category-count bangla-text">১২০০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);">💖</div>
+            <h3 class="bangla-text">কবিতা</h3>
+            <p class="english-text">Poetry</p>
+            <div class="category-count bangla-text">৮০০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);">📜</div>
+            <h3 class="bangla-text">গল্প</h3>
+            <p class="english-text">Stories</p>
+            <div class="category-count bangla-text">৯৫০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);">🌍</div>
+            <h3 class="bangla-text">ইতিহাস</h3>
+            <p class="english-text">History</p>
+            <div class="category-count bangla-text">৪৫০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%);">💡</div>
+            <h3 class="bangla-text">বিজ্ঞান</h3>
+            <p class="english-text">Science</p>
+            <div class="category-count bangla-text">৬০০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);">👶</div>
+            <h3 class="bangla-text">শিশুতোষ</h3>
+            <p class="english-text">Children</p>
+            <div class="category-count bangla-text">৭৫০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);">✝️</div>
+            <h3 class="bangla-text">ধর্মীয়</h3>
+            <p class="english-text">Religious</p>
+            <div class="category-count bangla-text">৩৫০+ বই</div>
+          </a>
+
+          <a href="#catalog" class="category-card">
+            <div class="category-icon" style="background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);">🎓</div>
+            <h3 class="bangla-text">শিক্ষামূলক</h3>
+            <p class="english-text">Educational</p>
+            <div class="category-count bangla-text">৮২০+ বই</div>
+          </a>
+        </div>
+
+        <div class="text-center" style="margin-top: 3rem;">
+          <a href="#catalog" class="btn btn-primary bangla-text">সব বই দেখুন</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section class="featured-books">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="bangla-text">বিশেষ সংগ্রহ</h2>
+          <p class="bangla-text">আমাদের সেরা ও জনপ্রিয় বইগুলো আবিষ্কার করুন</p>
+          <p class="english-text" style="color: var(--neutral-500); font-size: 0.9rem;">
+            Discover our most popular and acclaimed books
+          </p>
+        </div>
+
+        <div class="book-grid">
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/poterPachali.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳৩৫০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">পথের পাঁচালী</h3>
+              <p class="english-title">Pather Panchali</p>
+              <div class="book-author bangla-text">বিভূতিভূষণ বন্দ্যোপাধ্যায়</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৮</span>
+                </div>
+              </div>
+              <a href="#book-1" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/sheser_kobita.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳২৮০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">শেষের কবিতা</h3>
+              <p class="english-title">Shesher Kobita</p>
+              <div class="book-author bangla-text">রবীন্দ্রনাথ ঠাকুর</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৯</span>
+                </div>
+              </div>
+              <a href="#book-2" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/lalSalu.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳২৫০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">লালসালু</h3>
+              <p class="english-title">Lalsalu</p>
+              <div class="book-author bangla-text">সৈয়দ ওয়ালীউল্লাহ</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৭</span>
+                </div>
+              </div>
+              <a href="#book-3" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/gitanjali.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳২০০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">গীতাঞ্জলি</h3>
+              <p class="english-title">Gitanjali</p>
+              <div class="book-author bangla-text">রবীন্দ্রনাথ ঠাকুর</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">কবিতা</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৯</span>
+                </div>
+              </div>
+              <a href="#book-4" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/kuhelika.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳২৮০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">কুহেলিকা</h3>
+              <p class="english-title">Kuhelika</p>
+              <div class="book-author bangla-text">কাজী নজরুল ইসলাম</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">কবিতা</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৯</span>
+                </div>
+              </div>
+              <a href="#book-4" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+          <div class="book-card">
+            <div class="book-cover">
+              <img src="./Images/sammobadi.jpg" alt="">
+              <div class="book-actions">
+                <button class="action-btn" title="View Details">👁️</button>
+                <button class="action-btn" title="Add to Cart">🛒</button>
+              </div>
+              <div class="book-price">৳২০০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">সাম্যবাদী</h3>
+              <p class="english-title">Samyabadi</p>
+              <div class="book-author bangla-text">কাজী নজরুল ইসলাম</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">কবিতা</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৯</span>
+                </div>
+              </div>
+              <a href="#book-4" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="bangla-text">আমাদের সম্পর্কে</h2>
+            <p class="bangla-text">
+              বাংলা বইঘর হলো বাংলা সাহিত্যের একটি বিশেষ ভান্ডার। আমরা বাংলা ভাষার
+              সেরা লেখকদের বই সংগ্রহ করে পাঠকদের কাছে পৌঁছে দিতে প্রতিশ্রুতিবদ্ধ।
+            </p>
+            <p class="english-text">
+              Bangla Book Library is a treasure trove of Bengali literature. We are
+              committed to bringing the finest works of Bengali authors to readers
+              everywhere.
+            </p>
+
+            <ul class="feature-list">
+              <li>
+                <div class="feature-icon">✓</div>
+                <span class="bangla-text">৫০০০+ বই এর বিশাল সংগ্রহ</span>
+              </li>
+              <li>
+                <div class="feature-icon">✓</div>
+                <span class="bangla-text">সর্বোচ্চ মানের বই</span>
+              </li>
+              <li>
+                <div class="feature-icon">✓</div>
+                <span class="bangla-text">দ্রুত ডেলিভারি সেবা</span>
+              </li>
+              <li>
+                <div class="feature-icon">✓</div>
+                <span class="bangla-text">সাশ্রয়ী মূল্যে</span>
+              </li>
+            </ul>
+
+            <a href="#catalog" class="btn btn-primary bangla-text">এখনই কিনুন</a>
+          </div>
+
+          <div class="about-visual">
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-number">৫০০০+</div>
+                <div class="stat-label bangla-text">বই</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">১০০+</div>
+                <div class="stat-label bangla-text">লেখক</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">১০,০০০+</div>
+                <div class="stat-label bangla-text">পাঠক</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">৪.৮</div>
+                <div class="stat-label bangla-text">রেটিং</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Book Catalog Page -->
+  <div id="catalog" class="page">
+    <section class="catalog-header">
+      <div class="container">
+        <h1 class="bangla-text">বই সমূহ</h1>
+        <p class="bangla-text">আমাদের সম্পূর্ণ সংগ্রহ ব্রাউজ করুন</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="catalog-controls">
+          <div class="filter-tabs">
+            <a href="#catalog" class="filter-tab active bangla-text">সব বই</a>
+            <a href="#catalog" class="filter-tab bangla-text">উপন্যাস</a>
+            <a href="#catalog" class="filter-tab bangla-text">কবিতা</a>
+            <a href="#catalog" class="filter-tab bangla-text">গল্প</a>
+            <a href="#catalog" class="filter-tab bangla-text">ইতিহাস</a>
+          </div>
+          <select class="sort-select bangla-text">
+            <option>জনপ্রিয়তা অনুসারে</option>
+            <option>দাম (কম থেকে বেশি)</option>
+            <option>দাম (বেশি থেকে কম)</option>
+            <option>নতুন প্রকাশিত</option>
+          </select>
+        </div>
+
+        <div class="book-grid">
+          <!-- Repeat book cards with different content -->
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳৩২০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">আরণ্যক</h3>
+              <p class="english-title">Aranyak</p>
+              <div class="book-author bangla-text">বিভূতিভূষণ বন্দ্যোপাধ্যায়</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৬</span>
+                </div>
+              </div>
+              <a href="#book-5" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳৩৮০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">চাঁদের পাহাড়</h3>
+              <p class="english-title">Chander Pahar</p>
+              <div class="book-author bangla-text">বিভূতিভূষণ বন্দ্যোপাধ্যায়</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৭</span>
+                </div>
+              </div>
+              <a href="#book-6" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳১৮০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">কাবুলিওয়ালা</h3>
+              <p class="english-title">Kabuliwala</p>
+              <div class="book-author bangla-text">রবীন্দ্রনাথ ঠাকুর</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">গল্প</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৯</span>
+                </div>
+              </div>
+              <a href="#book-7" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳২২০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">সোনার তরী</h3>
+              <p class="english-title">Sonar Tori</p>
+              <div class="book-author bangla-text">রবীন্দ্রনাথ ঠাকুর</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">কবিতা</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৭</span>
+                </div>
+              </div>
+              <a href="#book-8" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳২৭৫</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">পদ্মা নদীর মাঝি</h3>
+              <p class="english-title">Padma Nadir Majhi</p>
+              <div class="book-author bangla-text">মানিক বন্দ্যোপাধ্যায়</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৮</span>
+                </div>
+              </div>
+              <a href="#book-9" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+
+          <div class="book-card">
+            <div class="book-cover">
+              <div class="book-actions">
+                <button class="action-btn">👁️</button>
+                <button class="action-btn">🛒</button>
+              </div>
+              <div class="book-price">৳৩০০</div>
+            </div>
+            <div class="book-info">
+              <h3 class="bangla-text">আগুনের পরশমণি</h3>
+              <p class="english-title">Aguner Poroshmoni</p>
+              <div class="book-author bangla-text">হুমায়ূন আহমেদ</div>
+              <div class="book-meta">
+                <span class="book-category bangla-text">উপন্যাস</span>
+                <div class="book-rating">
+                  <span>⭐</span>
+                  <span>৪.৮</span>
+                </div>
+              </div>
+              <a href="#book-10" class="btn btn-primary btn-full bangla-text">বিস্তারিত দেখুন</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Book Detail Pages -->
+  <div id="book-1" class="page">
+    <section class="book-detail">
+      <div class="container">
+        <div class="book-detail-content">
+          <div class="book-detail-cover">
+            <!-- Book cover image would go here -->
+          </div>
+          <div class="book-detail-info">
+            <h1 class="bangla-text">পথের পাঁচালী</h1>
+            <p class="english-text" style="font-size: 1.2rem; color: var(--neutral-500);">Pather Panchali</p>
+            <p class="bangla-text" style="font-size: 1.3rem; margin: 1rem 0;">লেখক: বিভূতিভূষণ বন্দ্যোপাধ্যায়</p>
+            <div class="book-detail-price">৳৩৫০</div>
+
+            <div class="book-detail-description bangla-text">
+              গ্রামীণ বাংলার পটভূমিতে অপু ও তার পরিবারের জীবনকাহিনী নিয়ে রচিত এক অমর উপন্যাস।
+              বিভূতিভূষণ বন্দ্যোপাধ্যায়ের এই কালজয়ী সৃষ্টি বাংলা সাহিত্যের এক অমূল্য সম্পদ।
+            </div>
+
+            <div class="book-detail-meta">
+              <div class="meta-row">
+                <span class="bangla-text font-semibold">প্রকাশনার বছর:</span>
+                <span>১৯২৯</span>
+              </div>
+              <div class="meta-row">
+                <span class="bangla-text font-semibold">পৃষ্ঠা সংখ্যা:</span>
+                <span>৩১২</span>
+              </div>
+              <div class="meta-row">
+                <span class="bangla-text font-semibold">বিভাগ:</span>
+                <span class="bangla-text">উপন্যাস</span>
+              </div>
+              <div class="meta-row">
+                <span class="bangla-text font-semibold">রেটিং:</span>
+                <span>⭐ ৪.৮/৫</span>
+              </div>
+            </div>
+
+            <div class="book-actions-detail">
+              <button class="btn btn-primary bangla-text" style="flex: 1;">
+                🛒 কার্টে যোগ করুন
+              </button>
+              <button class="btn btn-secondary bangla-text" style="flex: 1;">
+                💖 পছন্দের তালিকায়
+              </button>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <a href="#catalog" class="bangla-text" style="color: var(--primary-green); text-decoration: none;">
+                ← সব বই দেখুন
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Shopping Cart Page -->
+  <div id="cart" class="page">
+    <section class="cart">
+      <div class="container">
+        <h1 class="bangla-text mb-4">শপিং কার্ট</h1>
+
+        <div class="cart-content">
+          <div class="cart-items">
+            <h2 class="bangla-text mb-4">আপনার নির্বাচিত বই (৩টি)</h2>
+
+            <div class="cart-item">
+              <div class="cart-item-cover"></div>
+              <div class="cart-item-info">
+                <h3 class="bangla-text">পথের পাঁচালী</h3>
+                <p class="bangla-text">বিভূতিভূষণ বন্দ্যোপাধ্যায়</p>
+                <div class="cart-item-price">৳৩৫০</div>
+              </div>
+              <div style="margin-left: auto; display: flex; align-items: center; gap: 1rem;">
+                <span class="bangla-text">সংখ্যা: ১</span>
+                <button style="color: var(--accent-red); background: none; border: none; cursor: pointer;">🗑️</button>
+              </div>
+            </div>
+
+            <div class="cart-item">
+              <div class="cart-item-cover"></div>
+              <div class="cart-item-info">
+                <h3 class="bangla-text">শেষের কবিতা</h3>
+                <p class="bangla-text">রবীন্দ্রনাথ ঠাকুর</p>
+                <div class="cart-item-price">৳২৮০</div>
+              </div>
+              <div style="margin-left: auto; display: flex; align-items: center; gap: 1rem;">
+                <span class="bangla-text">সংখ্যা: ১</span>
+                <button style="color: var(--accent-red); background: none; border: none; cursor: pointer;">🗑️</button>
+              </div>
+            </div>
+
+            <div class="cart-item">
+              <div class="cart-item-cover"></div>
+              <div class="cart-item-info">
+                <h3 class="bangla-text">গীতাঞ্জলি</h3>
+                <p class="bangla-text">রবীন্দ্রনাথ ঠাকুর</p>
+                <div class="cart-item-price">৳২০০</div>
+              </div>
+              <div style="margin-left: auto; display: flex; align-items: center; gap: 1rem;">
+                <span class="bangla-text">সংখ্যা: ১</span>
+                <button style="color: var(--accent-red); background: none; border: none; cursor: pointer;">🗑️</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-summary">
+            <h3 class="bangla-text mb-4">অর্ডার সারাংশ</h3>
+
+            <div class="summary-row">
+              <span class="bangla-text">সাবটোটাল:</span>
+              <span>৳৮৩০</span>
+            </div>
+
+            <div class="summary-row">
+              <span class="bangla-text">ডেলিভারি চার্জ:</span>
+              <span>৳৫০</span>
+            </div>
+
+            <div class="summary-row summary-total">
+              <span class="bangla-text">মোট:</span>
+              <span>৳৮৮০</span>
+            </div>
+
+            <button class="btn btn-primary btn-full bangla-text mt-4">
+              অর্ডার করুন
+            </button>
+
+            <div style="margin-top: 1rem; text-align: center;">
+              <a href="#catalog" class="bangla-text" style="color: var(--primary-green); text-decoration: none;">
+                ← আরো বই যোগ করুন
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 class="bangla-text">বাংলা বইঘর</h3>
+          <p class="bangla-text">
+            বাংলা সাহিত্যের সেরা সংগ্রহ। আমাদের সাথে থাকুন এবং
+            বই পড়ার আনন্দে মেতে উঠুন।
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">🐦</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">📺</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="bangla-text">দ্রুত লিংক</h3>
+          <ul>
+            <li><a href="#home" class="bangla-text">হোম</a></li>
+            <li><a href="#catalog" class="bangla-text">বই সমূহ</a></li>
+            <li><a href="#about-section" class="bangla-text">আমাদের সম্পর্কে</a></li>
+            <li><a href="#cart" class="bangla-text">কার্ট</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="bangla-text">বিভাগ</h3>
+          <ul>
+            <li><a href="#catalog" class="bangla-text">উপন্যাস</a></li>
+            <li><a href="#catalog" class="bangla-text">কবিতা</a></li>
+            <li><a href="#catalog" class="bangla-text">গল্প</a></li>
+            <li><a href="#catalog" class="bangla-text">শিশুতোষ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="bangla-text">যোগাযোগ</h3>
+          <ul>
+            <li>📧 info@banglabookstore.com</li>
+            <li>📞 +৮৮০ ১২৩৪ ৫৬১২৩৪</li>
+            <li class="bangla-text">📍 ঢাকা, বাংলাদেশ</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="bangla-text">© ২০২৪ বাংলা বইঘর। সর্বস্বত্ব সংরক্ষিত।</p>
+        <p class="english-text">© 2024 Bangla Book Library. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
