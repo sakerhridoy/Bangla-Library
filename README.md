@@ -2,6 +2,14 @@
 
 A responsive and modern book catalog / e-commerce website built with **HTML** and **CSS**. This project showcases a clean UI, intuitive navigation, and a fully responsive layout for both desktop and mobile devices.
 
+## Author
+
+### Saker Ahmed Hridoy
+
+###### GitHub: sakerhridoy
+
+###### LinkedIn: Your LinkedIn
+
 ## Demo
 
 You can view the live demo here:  
@@ -20,16 +28,6 @@ You can view the live demo here:
 - Utility classes for easy styling (`text-center`, `font-bold`, etc.)
 - Semantic and maintainable CSS with color variables
 
-## Screenshots
-
-### Home Page
-![Home Screenshot](#) <!-- Replace with screenshot link -->
-
-### Book Detail Page
-![Book Detail Screenshot](#) <!-- Replace with screenshot link -->
-
-### Cart Page
-![Cart Screenshot](#) <!-- Replace with screenshot link -->
 
 ## Technologies Used
 
@@ -58,10 +56,3 @@ cd Bangla-Library
 
 3.Open index.html in your browser.
 
-Author
-
-Saker Ahmed Hridoy
-
-GitHub: sakerhridoy
-
-LinkedIn: Your LinkedIn
