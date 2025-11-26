@@ -36,14 +36,3 @@ A responsive and modern book catalog / e-commerce website built with **HTML** an
 - Google Fonts: [Kalpurush](https://fonts.google.com/specimen/Kalpurush) and [Inter](https://fonts.google.com/specimen/Inter)
 
 
-## How to Run Locally
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-2.Navigate to the project folder:
-
-cd Bangla-Library
-
-3.Open index.html in your browser.
-
