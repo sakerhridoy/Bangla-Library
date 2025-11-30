@@ -2,19 +2,14 @@
 
 A responsive and modern book catalog / e-commerce website built with **HTML** and **CSS**. This project showcases a clean UI, intuitive navigation, and a fully responsive layout for both desktop and mobile devices.
 
-## Author
-
-### Saker Ahmed Hridoy
-
 ###### GitHub: sakerhridoy
 
 ###### LinkedIn: Your LinkedIn
 
-## Demo
-
 ## You can view the live demo here: 
-https://bangla-library.vercel.app/
- https://sakerhridoy.github.io/Bangla-Library/
+##### https://bangla-library.vercel.app/ 
+or
+##### https://sakerhridoy.github.io/Bangla-Library/
 
 ## Features
 
