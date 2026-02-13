@@ -6,7 +6,7 @@ A responsive and modern book catalog / e-commerce website built with **HTML** an
 
 ###### LinkedIn: Your LinkedIn
 
-## You can view the live demo here: 
+## live demo here: 
 ##### https://bangla-library.vercel.app/ 
 or
 ##### https://sakerhridoy.github.io/Bangla-Library/
