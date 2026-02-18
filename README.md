@@ -1,6 +1,6 @@
 ## Book Catalog / E-Commerce Web App
 
-A responsive and modern book catalog / e-commerce website built with **HTML** and **CSS**. This project showcases a clean UI, intuitive navigation, and a fully responsive layout for both desktop and mobile devices.
+A responsive and modern book catalog / E-commerce website built with **HTML** and **CSS**. This project showcases a clean UI, intuitive navigation, and a fully responsive layout for both desktop and mobile devices.
 
 ###### GitHub: sakerhridoy
 
